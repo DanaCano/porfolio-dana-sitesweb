@@ -104,6 +104,15 @@
     padding: 1rem;
   }
 
+  .bouton a {
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    background-color: #0160a3;
+    color:white;
+    text-decoration:none;
+  }
 
   
   @media screen and (min-width:750px) {
@@ -542,16 +551,6 @@
     transition: all 1s ease;
   }
 
-  .bouton {
-    border: 1px solid #2e518b; 
-    padding: 10px; 
-    background-color: #2e518b; 
-    color: #ffffff; 
-    text-decoration: none; 
-    text-transform: uppercase; 
-    font-family: 'Helvetica', sans-serif; 
-    border-radius: 50px; 
-    }
   
   @media screen and (max-width:749px) {
     .portfolio a {
